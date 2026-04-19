@@ -1,4 +1,33 @@
+body {
+  background-image: url("images/thebackground.png");
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -2048px 0;
+  }
+}
+
 #title {
-    text-align: center;
-    background-color: blue;
+  text-align: center;
+}
+
+#title h1 {
+  background-color: rgb(103, 108, 152);
+  border-radius: 10px;
+}
+
+#title p {
+  background-color: rgb(103, 108, 152);
+  border-radius: 10px;
+  padding: 0;
+}
+
+#Skills {
+  text-align: center;
+  background-color: rgb(103, 108, 152);
 }
